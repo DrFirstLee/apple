@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "apple"
+version = "0.1.0"
+description = "Print cute text apples from Python."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+	{ name = "DrFirst" }
+]
+keywords = ["apple", "ascii", "text-art", "fun"]
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: MIT License",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3 :: Only",
+	"Topic :: Artistic Software",
+]
+
+[project.urls]
+Homepage = "https://github.com/DrFirstLee/apple"
+Issues = "https://github.com/DrFirstLee/apple/issues"
+
+[project.scripts]
+apple = "apple:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/apple"]
