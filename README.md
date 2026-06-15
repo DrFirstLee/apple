@@ -1,4 +1,4 @@
-# apple
+# appple
 
 Print cute text apples from Python.
 
@@ -44,10 +44,10 @@ apple.kinds()
 ## Command Line
 
 ```bash
-apple
-apple samsung
-apple angry
-apple random
+appple
+appple samsung
+appple angry
+appple random
 ```
 
 ## Build and Publish
