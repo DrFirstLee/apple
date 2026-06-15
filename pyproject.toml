@@ -27,7 +27,7 @@ Homepage = "https://github.com/DrFirstLee/apple"
 Issues = "https://github.com/DrFirstLee/apple/issues"
 
 [project.scripts]
-appple = "apple:main"
+apple = "apple:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/apple"]

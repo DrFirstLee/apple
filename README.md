@@ -8,7 +8,7 @@ Print cute text apples from Python.
 pip install appple
 ```
 
-The PyPI distribution name is `appple`, while the Python import name remains `apple`.
+The PyPI distribution name is `appple`, while the Python import and terminal command remain `apple`.
 
 ## Usage
 
@@ -44,10 +44,10 @@ apple.kinds()
 ## Command Line
 
 ```bash
-appple
-appple samsung
-appple angry
-appple random
+apple
+apple samsung
+apple angry
+apple random
 ```
 
 ## Build and Publish
