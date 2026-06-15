@@ -20,14 +20,34 @@ apple.rotten()
 apple.green()
 apple.bite()
 apple.basket()
+apple.samsung()
+apple.angry()
+apple.cute()
+apple.sexy()
+apple.nerd()
+apple.sleepy()
+apple.doctor()
+apple.money()
+apple.party()
+apple.love()
+apple.random()
 ```
 
 Each function prints the apple art and also returns it as a string.
+
+To see every available apple name:
+
+```python
+apple.kinds()
+```
 
 ## Command Line
 
 ```bash
 apple
+apple samsung
+apple angry
+apple random
 ```
 
 ## Build and Publish
