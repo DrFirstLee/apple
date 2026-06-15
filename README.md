@@ -5,10 +5,10 @@ Print cute text apples from Python.
 ## Install
 
 ```bash
-pip install apple
+pip install appple
 ```
 
-If the `apple` name is already taken on PyPI, rename the project in `pyproject.toml` before publishing.
+The PyPI distribution name is `appple`, while the Python import name remains `apple`.
 
 ## Usage
 
